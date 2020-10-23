@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Flutter Viewlist'),
     );
   }
 }
@@ -61,18 +61,18 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <StatelessWidget>[
             Container(
               height: 50,
-              color: Colors.amber[600],
-              child: const Center(child: Text('Entry A')),
+              color: Colors.yellow[300],
+              child: const Center(child: Text('Knop 1')),
             ),
             Container(
               height: 50,
-              color: Colors.amber[500],
-              child: const Center(child: Text('Entry B')),
+              color: Colors.red[666],
+              child: const Center(child: Text('Knop 2')),
             ),
             Container(
               height: 50,
-              color: Colors.amber[100],
-              child: const Center(child: Text('Entry C')),
+              color: Colors.lime[420],
+              child: const Center(child: Text('Knop 3')),
             ),
           ],
         ));
